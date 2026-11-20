@@ -89,7 +89,7 @@ My personal tracker for learning Data Structures and Algorithms in C++ and prepa
 
 ### Fundamentals
 - [ ] Bubble Sort
-- [ ] Selection Sort
+- [x] Selection Sort
 - [ ] Insertion Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
