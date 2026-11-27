@@ -2,10 +2,10 @@
 using namespace std;
 class Solution {
 public:
-    void pattern5(int n) {
+    void pattern6(int n) {
       for(int i=n; i>0; i--){
-        for(int j=i; j>0; j--){
-            cout<<"*";
+        for(int j=1; j<=i; j++){
+            cout<<j;
         }
         cout<<endl;
       }
@@ -18,7 +18,7 @@ int main(){
      int n;
      cin>>n;
      Solution obj;
-     obj.pattern5(n);
+     obj.pattern6(n);
     }
     return 0;
 }
